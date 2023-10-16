@@ -18,23 +18,11 @@ function Overlay() {
         height: "100%",
       }}>
       <a
-        href=""
+        href="./CV.pdf"
         style={{
           position: "absolute",
           bottom: 40,
           left: 90,
-          fontSize: "13px",
-        }}>
-        Main framework
-        <br />
-        React fiber
-      </a>
-      <a
-        href="./CV.pdf"
-        style={{
-          position: "absolute",
-          top: 40,
-          right: 40,
           fontSize: "20px",
           borderRadius: "3rem",
           backgroundColor: "#4F46E5",
@@ -95,20 +83,23 @@ function Overlay() {
               />
             </svg>
           </a>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            style={{ width: "2.5rem", height: "2.5rem", fill: "#6366F1" }}>
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
-            />
-          </svg>
+          <a
+            href="https://sites.google.com/view/trangbuiworkshowroom/trang-ch%E1%BB%A7"
+            style={{ cursor: "pointer" }}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              style={{ width: "2.5rem", height: "2.5rem", fill: "#6366F1" }}>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+              />
+            </svg>
+          </a>
           <a
             href="https://www.linkedin.com/in/trang-bui-profiles/message/"
             style={{ cursor: "pointer" }}>
